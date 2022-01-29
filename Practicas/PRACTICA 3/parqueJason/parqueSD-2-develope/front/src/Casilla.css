@@ -1,0 +1,34 @@
+.casilla {
+	background-color: white;
+	display: grid;
+	height: 2rem;
+	width: 2rem;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	border-style: solid;
+	border-radius: 0.5px;
+}
+
+.casillaVacia {}
+
+
+.casillaAtraccion {}
+
+.casillaAtraccion {}
+
+.sector1{
+	background-color: rgb(255, 248, 239);
+}
+
+.sector2{
+	background-color: rgb(181, 245, 181);
+}
+
+.sector3{
+	background-color: rgb(255, 175, 175);
+}
+
+.sector4{
+	background-color: rgb(196, 196, 253);
+}

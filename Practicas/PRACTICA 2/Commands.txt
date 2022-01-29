@@ -1,0 +1,7 @@
+zookeeper-server-start C:\kafka_2.13-2.8.0\config\zookeeper.properties
+
+kafka-server-start C:\kafka_2.13-2.8.0\config\server.properties
+
+kafka-topics --create --zookeeper localhost:2181 --replication-factor 1 --partitions 2 --topic INICIARSESION
+
+kafka-console-consumer --topic INICIARSESION --from-beginning --bootstrap-server localhost:9092

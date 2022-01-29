@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/media/dar33/UniHardDisk/Universidad/SD/Practicas/parqueSD/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+2368058829.index
+1246902483.index

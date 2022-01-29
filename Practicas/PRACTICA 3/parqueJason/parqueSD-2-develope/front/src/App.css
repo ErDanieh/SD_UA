@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  padding: 0;
+  padding-bottom: 550px;
+  padding-top: 50px;
+}
+
+body {
+  margin: -8px;
+  
+}
+
+h1 {
+  color: white;
+  font-size: 4.5rem;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.tituloTemperatura {
+  font-size: 2.5rem;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 0px;
+  color: white;
+}
+
+.leyendaValor{
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.elementoLeyenda{
+  display: flex;
+  align-items: center;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.elementoLeyenda p{
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
